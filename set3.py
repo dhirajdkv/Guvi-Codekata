@@ -1,9 +1,6 @@
-a = str(input())
-arr = ["a","e","i","o","u"]
-if len(a)<2:
-    if a in arr:
-        print("Vowel")
-    else:
-        print("Not Vowel")
-else:
-    print("Invalid")
+try:
+    a = int(input())
+    a = str(a)
+    print(a[::-1])
+except ValueError:
+    print("Invalid input")
