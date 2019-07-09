@@ -4,10 +4,8 @@ using namespace std;
 int main(){
   int num;
   int a=0,b=0,temp=0;
-  cout<<"enter how many numbers"<<endl;
   cin>>num;
   int arr[num];
-  cout<<"enter the numbers"<<endl;
   for(int i=0;i<num;i++){
     cin>>arr[i];
   }
