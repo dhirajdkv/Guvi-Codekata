@@ -6,7 +6,7 @@ elif b == "IX":
     print(9)
 else:
     b = list(b)
-    su=0
+    suu=0
     for item in b:
-        su = su + dic[item]
-    print(su)
+        suu = suu + dic[item]
+    print(suu)
