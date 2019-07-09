@@ -1,7 +1,7 @@
 a = input()
-l = len(a)
+le = len(a)
 a = a.replace(" ",". ")
-if a[l]!=".":
+if a[le]!=".":
     print(a+".")
 else:
     print(a)
