@@ -1,12 +1,12 @@
 dic = {"I":1,"V":5,"X":10}
-a = input()
-if a == "IV":
+b = input()
+if b == "IV":
     print(4)
-elif a == "IX":
+elif b == "IX":
     print(9)
 else:
-    a = list(a)
+    b = list(b)
     su=0
-    for item in a:
+    for item in b:
         su = su + dic[item]
     print(su)
