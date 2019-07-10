@@ -1,5 +1,5 @@
 a = int(input())
-summ = 1
+summm = 1
 for i in range(1 , a+1):
-    summ = i * a
-    print(summ,end=" ")
+    summm = i * a
+    print(summm,end=" ")
