@@ -1,6 +1,7 @@
-a = int(input())
-b = int(input())
-for j in range(a,b+1):
+a,b = input().split()
+a=int(a)
+b=int(b)
+for j in range(a,b):
     alen = len(str(j))
     j=str(j)
     summ=0
