@@ -1,6 +1,6 @@
 a = int(input())
-summ = 1
+summm = 1
 while a>0:
-    summ = summ * a
+    summm = summm * a
     a-=1
-print(summ)
+print(summm)
