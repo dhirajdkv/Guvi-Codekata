@@ -1,3 +1,3 @@
-a = int(input())
+b = int(input())
 p = int(input())
-print(a**p)
+print(b**p)
