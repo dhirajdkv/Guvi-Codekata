@@ -2,8 +2,12 @@
 #include<cstring>
 using namespace std;
 int main(){
-  int num=11;
-  int number[]={1,2,4,4,2,3,3,8,9,8,9};
+  int num;
+  cin>>num;
+  int number[num];
+  for(int i=0;i<num;i++){
+    cin>>number[i];
+  }
   bool flag=true;
   for(int i=0;i<num;i++){
     if(number[i]!=0){
