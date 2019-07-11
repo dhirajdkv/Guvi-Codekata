@@ -4,7 +4,12 @@ using namespace std;
 int main(){
   int count=0;
   bool flag=true;
-  int number[8]={8,7,6,8,4,7,8,7};
+  int num;
+  cin>>num;
+  int number[num];
+  for(int i=0;i<num;i++){
+    cin>>number[i];
+  }
   for(int i=0;i<8;i++){
     if(number[i]==i){
       if(flag==true){
