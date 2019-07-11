@@ -23,4 +23,7 @@ int main(){
         break;
       }
     }
+  if(flag!=false){
+    cout<<"unique";
+  }
   }
