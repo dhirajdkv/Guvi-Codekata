@@ -22,7 +22,12 @@ int main() {
       }
     }
     if(flag==true){
-      cout<<name1<<endl;
+      if(name1[0]>name2[0]){
+        cout<<name1<<endl;
+      }
+      else{
+        cout<<name2<<endl;
+      }
     }
   }  
 }
